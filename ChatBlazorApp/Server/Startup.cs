@@ -29,7 +29,7 @@ namespace ChatBlazorApp.Server
             {
                 options.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(new[] { "application/octet-stream" });
             });
-            services.AddCors(options => options.AddPolicy("CorsPolicy", builder => builder.AllowAnyHeader().AllowAnyMethod().SetIsOriginAllowed((host) => true).AllowCredentials()));
+            services.AddCors(options => options.AddPolicy("CorsPolicy", builder => builder.WithOrigins("https://alberspim.github.io").AllowAnyHeader().AllowAnyMethod().SetIsOriginAllowed((host) => true).AllowCredentials()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
