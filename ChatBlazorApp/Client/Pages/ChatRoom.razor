@@ -32,7 +32,10 @@
 
     protected override async Task OnInitializedAsync()
     {
-        hubConnection = new HubConnectionBuilder().WithUrl(NavigationManager.ToAbsoluteUri("/chathub")).Build();
+        hubConnection = new HubConnectionBuilder().WithUrl(NavigationManager.ToAbsoluteUri("/chathub"), options =>
+        {
+            options.HttpMessageHandlerFactory = innerHandler => new IncludeRequestCredentialsMessagHandler { InnerHandler = innerHandler };
+        }).Build();
 
         hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
         {
