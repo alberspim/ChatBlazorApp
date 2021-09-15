@@ -105,7 +105,7 @@
       "url": "_framework\/Microsoft.AspNetCore.Components.Web.dll"
     },
     {
-      "hash": "sha256-JVkYXLuEzAp5O0O0zcGBVkfktW5l1F3xyvH12EaEZOQ=",
+      "hash": "sha256-TmgZq9sC9QXpGzzDNewHZuBKiBalgScgGQtv4BW5WKY=",
       "url": "_framework\/Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
@@ -193,7 +193,7 @@
       "url": "_framework\/ChatBlazorApp.Shared.dll"
     },
     {
-      "hash": "sha256-fCVA6B2boKHGgEcLy4edUlZ8d5iQ085Np+ocEVcGe9g=",
+      "hash": "sha256-Qpa31EIvXga7vDodMQDUJ5UcIi8qOHsRuBtnr1ptZ0Q=",
       "url": "_framework\/ChatBlazorApp.Client.dll"
     },
     {
@@ -245,7 +245,7 @@
       "url": "_framework\/System.Memory.dll"
     },
     {
-      "hash": "sha256-nxO+UbwIJCHbuvEeh2QDmGrUef\/38BEDkkqp9xF0jlY=",
+      "hash": "sha256-e5d\/hwNSZt6qmSaAQlpM5N6+OnnyF\/BeP0EMkTPq8ek=",
       "url": "_framework\/System.Net.Http.dll"
     },
     {
@@ -309,7 +309,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-Ln2LuNvARuf59c5jeyp+hnG9Ke1G87IT+Bgaj9OyqeI=",
+      "hash": "sha256-UO2uSF5kkVs0uOBF8vhBd4jxhvfLeOtl1nvyOtpF56w=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -317,5 +317,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "E1g7cj50"
+  "version": "a8sP\/REo"
 };
