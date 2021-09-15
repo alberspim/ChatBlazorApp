@@ -193,7 +193,7 @@
       "url": "_framework\/ChatBlazorApp.Shared.dll"
     },
     {
-      "hash": "sha256-fCVA6B2boKHGgEcLy4edUlZ8d5iQ085Np+ocEVcGe9g=",
+      "hash": "sha256-cZ\/frOZyUAmLxTwglgAjPRrVn9jn7UfJ8AisDIXZZao=",
       "url": "_framework\/ChatBlazorApp.Client.dll"
     },
     {
@@ -309,7 +309,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-Ln2LuNvARuf59c5jeyp+hnG9Ke1G87IT+Bgaj9OyqeI=",
+      "hash": "sha256-stPvcpu5CL4oOYXwhH9BClgYHtWSlVBGcAVGbgLYwl4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -317,5 +317,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "E1g7cj50"
+  "version": "mOsw\/oKk"
 };
