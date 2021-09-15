@@ -52,6 +52,17 @@ namespace ChatBlazorApp.Server
             app.UseBlazorFrameworkFiles();
             app.UseStaticFiles();
 
+            if (!env.IsDevelopment())
+            {
+                app.UseCors(builder =>
+                {
+                    builder.WithOrigins("https://alberspim.github.io/")
+                    .AllowAnyHeader()
+                    .WithMethods("GET", "POST")
+                    .AllowCredentials();
+                });
+            }
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
